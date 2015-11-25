@@ -21,7 +21,7 @@ Because of problems during the installation with ___[Pyjnius](https://pyjnius.re
 + 32Bit Python for example [Anaconda](https://www.continuum.io/downloads)
 
 ## Getting started
-Before you run the setup.py file ( or use pip install javabridge) you need to install Java SE Development Kit 8u66(64Bit).
+Before you run the setup.py file you need to install Java SE Development Kit 8u66(64Bit).
 
 ###### Setting JAVA_HOME environment variable
 
@@ -34,4 +34,10 @@ Before you run the setup.py file ( or use pip install javabridge) you need to in
   *JAVA_HOME*
 6. In the **Variable Value** field, enter your JDK installation path.
 
+## Installation
 
+Change the directory to the javabridge folder.
+You are now able to run the setup.py file.  *python setup.py install*.
+After successful installation you should do the unit test. *python setup.py develop* and *python setup.py nosetests*
+The result should be something like this:  Ran 159 tests in 0.771s
+                                          OK
