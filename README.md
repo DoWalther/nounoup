@@ -25,7 +25,7 @@ Before you run the setup.py file ( or use pip install javabridge) you need to in
 
 ###### Setting JAVA_HOME environment variable
 
-1. Find out where Java is installed. If you didn't change the path during installation, it will be something like this:
+1. Find out where Java is installed. If you didn't change the path during installation, it will be something like this:        
   *C:\Program Files (x86)\Java\jdk1.8.0_66*
 3. In Windows 7 right click **My Computer** and select **Properties** > **Advanced**.
 4. Click the **Environment Variables** button.
