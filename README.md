@@ -36,8 +36,8 @@ Before you run the setup.py file you need to install Java SE Development Kit 8u6
 
 ## Installation
 
-Change the directory to the javabridge folder.
-You are now able to run the setup.py file.  *python setup.py install*.
-After successful installation you should do the unit test. *python setup.py develop* and *python setup.py nosetests*
-The result should be something like this:  Ran 159 tests in 0.771s
++ Change the directory to the javabridge folder.
++ You are now able to run the setup.py file.  *python setup.py install*.
++ After successful installation you should do the unit test. *python setup.py develop* and *python setup.py nosetests*
++ The result should be something like this:  Ran 159 tests in 0.771s
                                           OK
