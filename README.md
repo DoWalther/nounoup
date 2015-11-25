@@ -25,12 +25,13 @@ Before you run the setup.py file ( or use pip install javabridge) you need to in
 
 ###### Setting JAVA_HOME environment variable
 
-1. Find out where Java is installed. If you didn't change the path during installation, it will be something like this: \n
-   *C:\Program Files (x86)\Java\jdk1.8.0_66*
+1. Find out where Java is installed. If you didn't change the path during installation, it will be something like this:
+  *C:\Program Files (x86)\Java\jdk1.8.0_66*
 3. In Windows 7 right click **My Computer** and select **Properties** > **Advanced**.
 4. Click the **Environment Variables** button.
 5. Under **System Variables**, click **New**.
-6. In the **Variable Name** field, enter:  *JAVA_HOME*
+6. In the **Variable Name** field, enter: 
+  *JAVA_HOME*
 7. In the **Variable Value** field, enter your JDK installation path.
 
 
