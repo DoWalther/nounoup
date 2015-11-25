@@ -13,3 +13,9 @@ We considered the following libraries
 Because of problems during the installation with ___[Pyjnius](https://pyjnius.readthedocs.org/en/latest/)___ ( pip and setup.py doesn't work), we tried [Py4J](https://www.py4j.org/index.html). After successfull installation we weren't able to run the JVM.
 
 + [javabridge] (https://pypi.python.org/pypi/javabridge) .. is the only working library so far.
+
+## Dependencies
++ [numpy](https://pypi.python.org/pypi/numpy/1.10.1)
++ [nose] (https://pypi.python.org/pypi/nose/1.3.7)
++ [JDK 64Bit] (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
++ 32Bit Python for example [Anaconda](https://www.continuum.io/downloads)
