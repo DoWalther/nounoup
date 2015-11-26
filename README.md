@@ -10,7 +10,7 @@ We considered the following libraries
 +  [Py4J](https://www.py4j.org/index.html)... seems to have much larger overhead due to RPC socket use
 +  Other libraries such as [jep](https://pypi.python.org/pypi/jep) are available for accessing Python from Java (other direction)
 
-Because of problems during the installation with ___[Pyjnius](https://pyjnius.readthedocs.org/en/latest/)___ ( pip and setup.py doesn't work), we tried [Py4J](https://www.py4j.org/index.html). After successfull installation we weren't able to run the JVM.
+Because of problems with importing the ___[Pyjnius](https://pyjnius.readthedocs.org/en/latest/)___ library(ImportError: DLL load failed, we tried [Py4J](https://www.py4j.org/index.html). It is possible to import py4j, but we can't run the JVM. 
 
 + [javabridge] (https://pypi.python.org/pypi/javabridge) .. is the only working library so far.
 
