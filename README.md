@@ -13,7 +13,9 @@ We considered the following libraries
 Because of problems with importing the ___[Pyjnius](https://pyjnius.readthedocs.org/en/latest/)___ library(ImportError: DLL load failed), we tried [Py4J](https://www.py4j.org/index.html). It is possible to import py4j, but we can't run the JVM. 
 
 + [javabridge] (https://pypi.python.org/pypi/javabridge) .. is the only working library so far.
-+ Update: ___[Pyjnius](https://pyjnius.readthedocs.org/en/latest/)___  is working, if you import javabridge before Pyjnius. I don't know why this solves the ImportError. 
++ Update: ___[Pyjnius](https://pyjnius.readthedocs.org/en/latest/)___  is working, if you import javabridge before Pyjnius. We don't know why this solves the ImportError. 
+
+We decided to use Javabridge because of the better documentation. 
 
 ## Dependencies
 + [numpy](https://pypi.python.org/pypi/numpy/1.10.1)
